@@ -25,7 +25,7 @@ end
 
 abbr -a gl 'git pull --prune'
 abbr -a glg "git log --graph --decorate --oneline --abbrev-commit"
-abbr -a glga "glg --all"
+abbr -a glga "git log --graph --decorate --oneline --abbrev-commit --all"
 abbr -a gp 'git push origin HEAD'
 abbr -a gpa 'git push origin --all'
 abbr -a gd 'git diff'
