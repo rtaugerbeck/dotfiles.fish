@@ -27,8 +27,8 @@ set -U fish_pager_color_prefix white --bold --underline
 set -U fish_pager_color_progress brwhite --background=cyan
 
 set -Ux EDITOR vim
-set -Ux VISUAL $EDITOR
 set -Ux WEDITOR code
+set -Ux VISUAL $WEDITOR
 
 set -Ux DOTFILES ~/.dotfiles
 set -Ux PROJECTS ~/Developer
